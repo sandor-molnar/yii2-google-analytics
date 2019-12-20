@@ -1,0 +1,29 @@
+{
+  "name": "sanyisasha/yii2-google-analytics",
+  "description": "A package to easily handle Google Analytics in Yii2 projects",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "extension",
+    "google",
+    "analytics",
+    "ga",
+    "gtag"
+  ],
+  "require": {
+    "yiisoft/yii2": "~2.0.0",
+    "php": ">=7.2"
+  },
+  "authors": [
+    {
+      "name": "SaSha",
+      "email": "molnar.sandor.benjamin@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "autoload": {
+    "psr-4": {
+      "sanyisasha\\yii2googleanalytics\\": "src\\"
+    }
+  }
+}
